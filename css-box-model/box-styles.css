@@ -1,0 +1,60 @@
+/* Resetting styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Block elements and inline elements */
+h1, p {
+    background-color: #DDE0E3;    /* Light gray */
+}
+/* Changing box behavior */
+
+em, strong {
+    background-color: #B2D6FF;    /*Light blue*/
+    display: inline;
+}
+
+/* Padding */
+h1 {
+    padding: 50px;
+    /* Borders */
+    border-bottom: 1px solid #5D6063;
+}
+/* Shorthand formats */
+p {
+    /* padding: 20px 10px;     Vertical Horizontal */
+    padding: 20px 0 20px 10px;  /* Top  Right  Bottom  Left */
+    /* Margin */
+    margin-top: 25px;
+    margin-bottom: 50px;    
+}
+
+/* Margins on inline elements */
+strong {
+    margin: 50px;
+}
+
+/* Generic boxes */
+div {
+    color: #FFF;
+    background-color: #5995DA;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    /* Explicit dimensions */
+    width: 200px;
+    /* Content boxes and border boxes */
+    box-sizing: border-box;
+    /* Centering with auto-margins */
+    margin: 20px auto; /* Vertical  Horizontal */
+}
+
+/* Aligning boxes */
+body {
+    text-align: center;
+}

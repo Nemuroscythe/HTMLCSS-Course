@@ -1,0 +1,55 @@
+/* 
+body {
+    color: #414141; light grey
+    background-color: #EEEEEE;    Light gray
+}  */
+
+
+/* Selecting differents elements */
+/* h1 {
+    font-size: 36px;
+  }
+
+h2 {
+font-size: 28px;
+} */
+
+/* Units of measurement */
+body {
+    color: #414141; /*light grey*/
+    background-color: #EEEEEE;    /* Light gray */
+    font-size: 18px;
+}
+
+/* Font weight and styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+font-size: 1.6em;
+}
+
+/* List style */
+ul {
+    list-style-type: circle;
+}
+  
+ol {
+list-style-type: lower-roman;
+}
+
+/* Underlines */
+a {
+    text-decoration: none;
+}
+
+/* Text alignment */
+p {
+    text-align: left;
+}
